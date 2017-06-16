@@ -26,3 +26,6 @@ for i in a:
 
 gpa = dengdi / xuefen
 print(gpa)
+with open('README.md', 'w') as f:
+    f.write(r"# This repository is a python script that records my GPA in JI"+2*"\n")
+    f.write("Now it's "+str(gpa)+" out of 4")
